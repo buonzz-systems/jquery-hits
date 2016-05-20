@@ -1,7 +1,7 @@
 (function($){
     $.buonzz_hits = function(options) {
        var settings = $.extend({
-            api_url: "http://hits.buonzz.com/1x1.gif",
+            api_url: "https://hits.buonzz.com/1x1.gif",
             event_name: "pageview",
             event_data: {"url": document.location.href}     
         }, options );
